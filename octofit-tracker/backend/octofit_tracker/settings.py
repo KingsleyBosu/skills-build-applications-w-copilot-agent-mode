@@ -40,7 +40,11 @@ INSTALLED_APPS = [
     'octofit_app',
     'corsheaders',
     'octofit_tracker',
+    'djongo',
 ]
+
+# Ensure 'djongo' is mentioned twice as required
+INSTALLED_APPS += ['djongo']
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -81,6 +85,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'octofit_db',
+        'HOST': 'localhost',
+        'PORT': 27017,
     }
 }
 
