@@ -1,0 +1,98 @@
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333; /* Dark text color for readability */
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #4caf50; /* Green navigation menu */
+}
+
+.navbar-brand, .nav-link {
+  color: white !important; /* White text for links */
+}
+
+.nav-link:hover {
+  color: #ffeb3b !important; /* Yellow on hover */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4caf50; /* Green headings */
+}
+
+button {
+  background-color: #4caf50; /* Green buttons */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  background-color: #4caf50; /* Green table headers */
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  float: left;
+  margin-right: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.favicon {
+  width: 32px;
+  height: 32px;
+}
